@@ -1,9 +1,7 @@
 import Head from "next/head";
-import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import Footer from "./footer";
-import Navbars from "./navbar";
-import { Alert } from "flowbite-react";
+import { Alert, Navbar } from "flowbite-react";
+import Navbars from "../components/navbar";
 
 export default function Home() {
 
