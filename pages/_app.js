@@ -6,6 +6,7 @@ function MyApp({ Component, pageProps }) {
   
   
   <>
+  <div className='h-[50px] bg-red hidden sm:block'/>
   <Navbar/>
   <Component {...pageProps} />
   </>
