@@ -2,6 +2,8 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Navbars from "../components/Navbar";
 import Hero from "../components/Hero";
+import { SliderData } from "../components/SliderData";
+import Slider from "../components/Slider";
 
 export default function Home() {
 
@@ -17,7 +19,7 @@ export default function Home() {
           <link rel="icon" href="/simpoku_icon.ico" />
         </Head>
         <Hero heading="Simpoku" message="Simposium terlengkap di Indonesia!"/>
-        <div className="h-screen"></div>
+        <Slider slider={SliderData} />
       </div>
       {/* <Footer /> */}
     </div>
