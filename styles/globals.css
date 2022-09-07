@@ -9,10 +9,7 @@ html{
   font-family: 'DM Sans', sans-serif;
 }
 
-.custom-img{
-  background-image: url("https://images.unsplash.com/photo-1576091160501-bbe57469278b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80");
-}
 
-.text-primary{
-  color: burlywood;
+.heroHeight{
+  height: calc(100vh - 200px);
 }

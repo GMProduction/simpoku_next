@@ -5,6 +5,7 @@ const nextConfig = {
   images:{
     domains:[
       'images.unsplash.com',
+      '1.bp.blogspot.com',
     ]
   }
 }
