@@ -16,16 +16,7 @@ function MyApp({ Component, pageProps }) {
           />
         </div>
 
-        {/* <div className="absolute xl:w-[4000px] xl:h-[3000px] xl:top-[-1200px] xl:right-[-1700px] 
-        md:w-[2000px] md:h-[1500px] md:top-[-600px] md:right-[-850px]
-        w-[500px] h-[600px] top-[-200px] right-[-260px]
-        ">
-          <Image
-            src={"/local-images/blob.svg"}
-            layout="fill"
-            objectFit="contain"
-          />
-        </div> */}
+        
       </div>
 
       <div className="h-[50px] bg-red hidden sm:block" />
